@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>my home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body style="background-color: lightgreen">
+<h1 class="name">
+	<span class="copy-wrap">
+		welcome to our site 
+  	</span>
+</h1>
+
+<div class="square"></div>
+
+<div class="card">
+	<div class="card-title-wrap">
+		<h2 class="title">
+			<span class="copy-wrap">
+				we have here to guide you for your better future
+			</span>
+		</h2>	
+		
+	</div>
+
+	<div style="text-align: right: ;">
+        <img src="{% static 'image01.jpg' %}" height="300px" width="500px" alt="page" style="border:5px solid gray;border-radius: 95%;">
+    </div>
+</div>
+
+<h3 class="copyright">
+	<span class="copy-wrap">
+        if you are new here so please signup,otherwise login to your username  password
+	</span>
+</h3>
+<h3 class="copyright">
+	<span class="copy-wrap">
+       thank you have a good day
+</h3>
+<p>Already have an accout? <a href="login">Log in</a></p>
+<p>otherwise <a href="signup">signup</a></p>
+</body>
+</html>
+
